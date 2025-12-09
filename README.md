@@ -11,7 +11,7 @@
 ## 目录结构
 ```
 网页二维码/
-├─ manifest.json     # 扩展清单（Manifest V2）
+├─ manifest.json     # 扩展清单（Manifest V3）
 ├─ popup.html        # 扩展弹窗页面
 ├─ popup.js          # 弹窗逻辑：向活动标签页注入脚本
 ├─ styles.css        # 弹窗样式
@@ -27,7 +27,7 @@
 
 ## 工作机制
 - 扩展清单配置
-  - `manifest.json:2` 使用 `manifest_version: 2`
+  - `manifest.json:3` 使用 `manifest_version: 3`
   - `manifest.json:10-12` 配置弹窗为 `popup.html`
   - `manifest.json:13-18` 在所有页面注入 `content.js`
   - `manifest.json:6-9` 权限包含 `activeTab` 与外部主机 `https://api.qrserver.com/`
