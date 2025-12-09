@@ -52,5 +52,5 @@
 
 ## 常见问题
 - 多次点击弹窗可能重复注入脚本，导致页面出现多个按钮/容器。若需避免，可在注入前判断是否已存在 `#qr-code-logo-button`/`#qr-code-container` 并复用。
-- 本项目使用 Manifest V2。
+- 本项目使用 Manifest V3。
 
