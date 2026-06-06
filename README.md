@@ -1,4 +1,4 @@
-# 网页二维码 Chrome 扩展（QR Code Generator）
+# QR Code Generator(微软edge已上线)
 
 一个轻量级的 Chrome 扩展，为当前网页生成带站点图标的二维码，方便在手机或其他设备快速打开页面。
 
